@@ -5,3 +5,7 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+Customer.create(official_name: "Customer, Inc.")
+
+CustomerAttribute.create(name_model: 'Customer', attribute_name: 'support_phone', attribute_type: 'string')
